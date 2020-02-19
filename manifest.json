@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "SocketTester",
+  "version": "1.0",
+  "description": "Check event from socket.io",
+  "icons": 
+        {
+        "32": "icon.png"
+        },
+  "content_scripts": 
+        [
+            {
+            "matches": ["*://*.ajit16.github.io/sockettester/*"],
+            "js": ["srcborder.js"]
+            }
+        ]
+}
